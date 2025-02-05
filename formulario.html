@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Compra</title>
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <div class="form-container">
+        <h2>Formulario de Compra</h2>
+        <form action="https://formsubmit.co/abnermilciadespimentel78@gmail.com" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="correo">Correo Electrónico:</label>
+            <input type="email" id="correo" name="correo" required>
+            
+            <label for="producto">Modelos:</label>
+            <select id="producto" name="producto" required>
+                <option value="moto1">Honda navi</option>
+                <option value="moto2">Harley davidson iron 883</option>
+                <option value="moto3">kawasaki h2</option>
+                <option value="moto4">ducati panigale V4r</option>
+                <option value="moto5">kawasaki z900</option>
+                <option value="moto6">ducati superleggera v4</option>
+                <option value="moto7">yamaha MT09</option>
+                <option value="moto8">yamaha rx 115</option>
+
+            </select>
+            
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" id="cantidad" name="cantidad" min="1" value="1" required>
+            
+            <label for="direccion">Dirección de Envío:</label>
+            <input type="text" id="direccion" name="direccion" required>
+            
+            <button type="submit">Registrar</button>
+        </form>
+    </div>
+</body>
+</html>

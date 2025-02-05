@@ -1,0 +1,127 @@
+body {
+    background-color: rgb(66, 7, 7);
+    font-family: 'Kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(fondo\ nuevo\ de\ mi\ pagina.jpg);
+}
+
+/* Header */
+header {
+    background-color: black;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    top: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
+h1 {
+    color: beige;
+    font-size: 2rem;
+}
+
+/* Navegación */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    padding: 0;
+}
+
+nav ul li {
+    color: beige;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.3s ease;
+}
+
+nav ul li:hover {
+    background-color: rgb(33, 171, 56);
+    color: antiquewhite;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: antiquewhite;
+    display: block;
+}
+
+/* Contenedor general */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+    width: 100%;
+    padding: 0 20px;
+}
+
+/* Tarjetas de motos */
+.motos {
+    width: calc(25% - 30px);
+    margin: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: 2px solid rgb(214, 201, 201);
+    background-color: rgb(34, 23, 23);
+    color: aqua;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
+    transition: all 0.45s ease-in-out;
+    overflow: hidden;
+}
+
+.motos:hover {
+    transform: translateY(-3%);
+}
+
+.motos figure img {
+    width: 100%;
+    height: 200%;
+    background-color: seashell;
+    object-fit: cover;
+}
+
+/* Contenido de las tarjetas */
+.motos .contenido {
+    margin-top: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.motos .contenido h3 {
+    font-weight: 400;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+/* Botón de compra */
+.motos .contenido button {
+    padding: 12px;
+    margin-top: 20px;
+    background-color: royalblue;
+    color: #f7f0f0;
+    border: 2px solid #f7f0f0;
+    border-radius: 10px;
+    transition: all 0.48s ease-in-out;
+    display: inline-block;
+}
+
+.motos .contenido button:hover {
+    background: aquamarine;
+}
+
+/* Ajustes para los botones*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    
+}
